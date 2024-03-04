@@ -11,15 +11,28 @@ const teamAuton = ({ teamNumber }) => {
     useEffect(() => {
         const newFilteredData = data
         .filter(item => String(item.team_number) === String(teamNumber))
-        .map(item => ({
-            ...item,
-            match_number: Number(item.match_number),
-            speaker_notes_auton: Number(item.speaker_notes_auton),
-            amp_notes_auton: Number(item.amp_notes_auton),
-        }))
-        .sort((a, b) => a.match_number - b.match_number);
-
-        setFilteredData(newFilteredData);
+        .reduce((acc, item) => {
+            const match_number = Number(item.match_number);
+            const speaker_notes_auton = Number(item.speaker_notes_auton);
+            const amp_notes_auton = Number(item.amp_notes_auton);
+    
+            if (!acc[match_number]) {
+                acc[match_number] = { speaker_notes_auton: [speaker_notes_auton], amp_notes_auton: [amp_notes_auton] };
+            } else {
+                acc[match_number].speaker_notes_auton.push(speaker_notes_auton);
+                acc[match_number].amp_notes_auton.push(amp_notes_auton);
+            }
+    
+            return acc;
+        }, {});
+    
+        const averagedData = Object.entries(newFilteredData).map(([match_number, { speaker_notes_auton, amp_notes_auton }]) => ({
+            match_number: Number(match_number),
+            speaker_notes_auton: speaker_notes_auton.reduce((a, b) => a + b, 0) / speaker_notes_auton.length,
+            amp_notes_auton: amp_notes_auton.reduce((a, b) => a + b, 0) / amp_notes_auton.length,
+        })).sort((a, b) => a.match_number - b.match_number);
+    
+        setFilteredData(averagedData);
     }, [teamNumber]);
 
     return (

@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-4 md:px-8 xl:px-10 py-14">
       <div>
-        <h1 className="text-4xl font-bold text-white mb-12">226 Data Visualization by Pranav M</h1>
+        <h1 className="text-4xl font-bold text-white mb-12">FRC Data Visualization by Pranav M</h1>
       </div>
 
       <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
@@ -68,11 +68,11 @@ export default function Home() {
         </GridItem>
       </div>
       <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
-        <GridItem title="Averages">
+        <GridItem title="Total Values">
           <TeamAverages teamNumber={teamNumber} />
         </GridItem>
       </div>
-      <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
+      <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1500px] mb-12 px-50">
         <GridItem title="Data Per Match">
           <Graph teamNumber={teamNumber} />
         </GridItem>
@@ -83,9 +83,11 @@ export default function Home() {
 
 function GridItem({ title, children }) {
   return (
-    <div className="flex flex-col items-center justify-center p-4 border border-slate-900 bg-slate-900/50 rounded-xl h-[400px]">
-      <h3 className="text-2xl font-semibold text-white mb-4">{title}</h3>
-      {children}
+    <div className="flex flex-col items-center justify-start p-4 border border-slate-900 bg-slate-900/50 rounded-xl min-h-[400px]">
+      <h2 className="text-xl font-bold text-white mb-4">{title}</h2>
+      <div className="w-full h-full overflow-auto">
+        {children}
+      </div>
     </div>
   );
 }

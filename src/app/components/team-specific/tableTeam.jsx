@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { TableContainer, Paper, Table, TableHead, TableRow, TableCell, TableBody, Divider, Typography, TableFooter, TablePagination, Container } from '@material-ui/core';
 import data from  '../results.json';
+import { ResponsiveContainer } from 'recharts';
 
 const MatchNumberTable = ({page, rowsPerPage, handleChangePage, handleChangeRowsPerPage, teamNumber }) => {
     
@@ -25,7 +26,7 @@ const MatchNumberTable = ({page, rowsPerPage, handleChangePage, handleChangeRows
 
   return (
     <div>
-      <Container>
+      <ResponsiveContainer width="100 %" height="100%">
         <div>
           <TableContainer component={Paper}>
             <Table sx={{ minWidth: 850 }} aria-label="simple table">
@@ -78,7 +79,7 @@ const MatchNumberTable = ({page, rowsPerPage, handleChangePage, handleChangeRows
             </Table>
           </TableContainer>
         </div>
-      </Container>
+      </ResponsiveContainer>
     </div>
   );
 };

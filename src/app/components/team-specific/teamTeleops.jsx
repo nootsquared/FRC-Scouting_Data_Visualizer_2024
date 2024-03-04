@@ -13,17 +13,29 @@ const teamTeleop = ({ teamNumber }) => {
     useEffect(() => {
         const newFilteredData = data
         .filter(item => String(item.team_number) === String(teamNumber))
-        .map(item => ({
-            ...item,
-            match_number: Number(item.match_number),
-            speaker_notes_teleop: Number(item.speaker_notes_teleop),
-            amp_notes_teleop: Number(item.amp_notes_teleop),
-        }))
-        .sort((a, b) => a.match_number - b.match_number);
-
-        setFilteredData(newFilteredData);
+        .reduce((acc, item) => {
+            const match_number = Number(item.match_number);
+            const speaker_notes_teleop = Number(item.speaker_notes_teleop);
+            const amp_notes_teleop = Number(item.amp_notes_teleop);
+    
+            if (!acc[match_number]) {
+                acc[match_number] = { speaker_notes_teleop: [speaker_notes_teleop], amp_notes_teleop: [amp_notes_teleop] };
+            } else {
+                acc[match_number].speaker_notes_teleop.push(speaker_notes_teleop);
+                acc[match_number].amp_notes_teleop.push(amp_notes_teleop);
+            }
+    
+            return acc;
+        }, {});
+    
+        const averagedData = Object.entries(newFilteredData).map(([match_number, { speaker_notes_teleop, amp_notes_teleop }]) => ({
+            match_number: Number(match_number),
+            speaker_notes_teleop: speaker_notes_teleop.reduce((a, b) => a + b, 0) / speaker_notes_teleop.length,
+            amp_notes_teleop: amp_notes_teleop.reduce((a, b) => a + b, 0) / amp_notes_teleop.length,
+        })).sort((a, b) => a.match_number - b.match_number);
+    
+        setFilteredData(averagedData);
     }, [teamNumber]);
-
     return (
         <ResponsiveContainer width="100%" height="100%">
             <LineChart data={filteredData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>

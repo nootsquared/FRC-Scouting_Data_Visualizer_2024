@@ -14,25 +14,24 @@ const teamAllAverages = ({ teamNumber }) => {
     useEffect(() => {
         const groupedData = _(data)
         .groupBy(item => `${item.match_number}-${item.team_number}`)
-        .map((items, group) => ({
-            match_number: Number(group.split('-')[0]),
-            team_number: Number(group.split('-')[1]),
-            avg_speaker_notes_auton: _.meanBy(items, 'speaker_notes_auton'),
-            avg_amp_notes_auton: _.meanBy(items, 'amp_notes_auton'),
-            avg_speaker_notes_teleop: _.meanBy(items, 'speaker_notes_teleop'),
-            avg_amp_notes_teleop: _.meanBy(items, 'amp_notes_teleop'),
-        }))
+        .map((items, group) => {
+            const totalTeleopPoints = _.meanBy(items, item => Number(item.totalTeleopPoints));
+            const totalAutonPoints = _.meanBy(items, item => Number(item.totalAutonPoints));
+    
+            return {
+                match_number: Number(group.split('-')[0]),
+                team_number: Number(group.split('-')[1]),
+                totalTeleopPoints,
+                totalAutonPoints,
+                total: totalTeleopPoints + totalAutonPoints,
+            };
+        })
         .value();
     
         const filteredData = groupedData
-        .filter(item => item.team_number === Number(teamNumber)) // Convert teamNumber to a number
+        .filter(item => item.team_number === Number(teamNumber))
         .sort((a, b) => a.match_number - b.match_number);
     
-        filteredData.forEach(item => {
-            item.total_auton = (item.avg_speaker_notes_auton + item.avg_amp_notes_auton) / 2;
-            item.total_teleop = (item.avg_speaker_notes_teleop + item.avg_amp_notes_teleop) / 2;
-            item.total = item.total_auton + item.total_teleop;
-        });
         setFilteredData(filteredData);
     
     }, [teamNumber]);
@@ -45,10 +44,9 @@ const teamAllAverages = ({ teamNumber }) => {
                 <YAxis domain={[0, 'dataMax + 1']}/>
                 <Legend />
                 <Tooltip content={<CustomTooltip />}/>
-                <Line type="monotone" dataKey="total_auton" stroke="#3b82f6" />
-                <Line type="monotone" dataKey="total_teleop" stroke="#8b5cf6" />
+                <Line type="monotone" dataKey="totalAutonPoints" stroke="#3b82f6" />
+                <Line type="monotone" dataKey="totalTeleopPoints" stroke="#8b5cf6" />
                 <Line type="monotone" dataKey="total" stroke="#ff0000" />
-                
             </LineChart>
         </ResponsiveContainer>
     );
