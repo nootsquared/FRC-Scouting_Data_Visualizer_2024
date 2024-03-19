@@ -3,53 +3,17 @@
 import { 
     BarChart, Bar, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Legend, Tooltip,
 } from 'recharts';
-import data from  '../results.json';
+import raw_data from  '../results.json';
 
 const AllTeamsEndgame = () => {
 
-    const groupedData = data.reduce((acc, item) => {
-        const key = `${item.team_number}-${item.match_number}`;
-        if (!acc[key]) {
-            acc[key] = {
-                team_number: item.team_number,
-                match_number: item.match_number,
-                totalSpeakerNotes: 0,
-                totalAmpNotes: 0,
-                count: 0,
-            };
-        }
-        acc[key].totalSpeakerNotes += Number(item.speaker_notes_teleop);
-        acc[key].totalAmpNotes += Number(item.amp_notes_teleop);
-        acc[key].count++;
-        return acc;
-    }, {});
+    const [data, setData] = useState({});
 
-    const averagedData = Object.values(groupedData).map(item => ({
-        ...item,
-        avgSpeakerNotes: item.totalSpeakerNotes / item.count,
-        avgAmpNotes: item.totalAmpNotes / item.count,
-    }));
+    useEffect(() => {
 
-    const teamData = averagedData.reduce((acc, item) => {
-        if (!acc[item.team_number]) {
-            acc[item.team_number] = {
-                team_number: item.team_number,
-                totalSpeakerNotes: 0,
-                totalAmpNotes: 0,
-                count: 0,
-            };
-        }
-        acc[item.team_number].totalSpeakerNotes += item.avgSpeakerNotes;
-        acc[item.team_number].totalAmpNotes += item.avgAmpNotes;
-        acc[item.team_number].count++;
-        return acc;
-    }, {});
+        
 
-    const finalData = Object.values(teamData).map(item => ({
-      ...item,
-      avgSpeakerNotes: item.totalSpeakerNotes / item.count,
-      avgAmpNotes: item.totalAmpNotes / item.count,
-  }));
+    }, [])
 
   const sortedData = finalData.sort((a, b) => (b.avgSpeakerNotes + b.avgAmpNotes) - (a.avgSpeakerNotes + a.avgAmpNotes));
 
@@ -63,8 +27,10 @@ const AllTeamsEndgame = () => {
               <YAxis domain={[0, maxYValue + 1]}/>
               <Legend />
               <Tooltip content={<CustomTooltip />}/>
-              <Bar dataKey="avgSpeakerNotes" stackId="a" fill="#3b82f6" />
-              <Bar dataKey="avgAmpNotes" stackId="a" fill="#8b5cf6" />
+              <Bar name="Park" dataKey="avgSpeakerNotes" stackId="a" fill="#3b82f6" />
+              <Bar name="Hang" dataKey="avgAmpNotes" stackId="a" fill="#8b5cf6" />
+              <Bar name="Harmony" dataKey="avgAmpNotes" stackId="a" fill="#db74b2" />
+              <Bar name="Trap" dataKey="avgAmpNotes" stackId="a" fill="#69dbad" />
           </BarChart>
       </ResponsiveContainer>
   );
@@ -81,7 +47,7 @@ const CustomTooltip = ({ active, payload, label }) => {
                   <span className="ml-2">{payload[1].value}</span>
               </p>
               <p className="text-sm text-blue-400">
-                  Average Speaker Notes Teleop:
+                  Average End:
                   <span className="ml-2">{payload[0].value}</span>
               </p>
 

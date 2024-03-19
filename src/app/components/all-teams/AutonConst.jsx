@@ -58,9 +58,9 @@ const AllTeamsAuton = () => {
       <ResponsiveContainer width="100%" height="100%">
           <BarChart data={sortedData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
               <XAxis dataKey="team_number" />
-              <CartesianGrid strokeDasharray="5 5"/>
+              {/* <CartesianGrid strokeDasharray="5 5"/> */}
               <YAxis domain={[0, 'dataMax + 1']}/>
-              <Legend />
+              {/* <Legend /> */}
               <Tooltip content={<CustomTooltip />}/>
               <Bar name="Average Notes" type="monotone" dataKey="avgNotes" fill="#3b82f6" stackId="a" />
               {/* <Bar type="monotone" dataKey="avgAmpNotes" fill="#8b5cf6" stackId="a" /> */}

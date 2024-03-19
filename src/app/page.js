@@ -45,7 +45,7 @@ export default function Home() {
           <TeleopConstAmp />
         </GridItem>
         <GridItem title="Endgame">
-          <EndgameConst />
+          {/* <EndgameConst /> */}
         </GridItem>
       </div>
 
@@ -78,11 +78,11 @@ export default function Home() {
           <TeamTeleops teamNumber={teamNumber} />
         </GridItem>
       </div>
-      <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
+      {/* <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
         <GridItem title="Total Values">
           <TeamAverages teamNumber={teamNumber} />
         </GridItem>
-      </div>
+      </div> */}
       <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1500px] mb-12 px-50">
         <GridItem title="Data Per Match">
           <Graph teamNumber={teamNumber} />
