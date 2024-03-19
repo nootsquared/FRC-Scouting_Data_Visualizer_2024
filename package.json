@@ -13,6 +13,7 @@
     "@emotion/styled": "^11.11.0",
     "@material-ui/core": "^4.12.4",
     "@mui/material": "^5.15.11",
+    "@tabler/icons-react": "^3.1.0",
     "@tanstack/react-table": "^8.13.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",

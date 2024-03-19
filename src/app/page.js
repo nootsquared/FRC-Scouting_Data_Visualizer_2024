@@ -12,6 +12,8 @@ import Graph from './components/team-specific/tableTeam';
 import { Grid, TextField } from '@material-ui/core';
 import React, { useState } from 'react';
 import TeamQuestions from './components/team-specific/teamQuestions';
+import { IconLink } from '@tabler/icons-react';
+import Link from 'next/link';
 
 export default function Home() {
   const [teamNumber, setTeamNumber] = useState("226"); // Replace 226 with your initial team number
@@ -25,6 +27,13 @@ export default function Home() {
       <div>
         <h1 className="text-4xl font-bold text-white mb-12">226 Data Visualization by Pranav M</h1>
       </div>
+
+      <button className='bg-slate-900 w-72 h-20 mb-12 text-center flex flex-row items-center justify-center text-2xl font-extralight rounded-2xl'>
+        <Link className='flex flex-row justify-evenly gap-2' href={"/picklist"}>
+          Scouting Ranking
+          <IconLink size={30} />
+        </Link>
+      </button>
 
       <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
         <GridItem title="All Teams">
