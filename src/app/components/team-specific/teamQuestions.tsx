@@ -95,7 +95,7 @@ export default function TeamQuestions({teamNumber}: {teamNumber: number}) {
                     setTeamData(previousData => ({...previousData, matches_scouted: previousData.matches_scouted + 1} as teamData))
 
                     // Add all points scored to a running array
-                    auto_points.push(Number(i.speaker_notes_auton) * 5 + Number(i.amp_notes_auton) * 2)
+                    auto_points.push(Number(i.speaker_notes_auton) * 5 + Number(i.amp_notes_auton) * 2 + (Number(i.speaker_notes_auton) + Number(i.amp_notes_auton) > 1 ? 2 : 0))
                     teleop_points.push(Number(i.speaker_notes_teleop) * 2 + Number(i.amp_notes_teleop) * 1)
                     let endgame_pts = 0
                     if (i.trap === "Yes") endgame_pts += 5;

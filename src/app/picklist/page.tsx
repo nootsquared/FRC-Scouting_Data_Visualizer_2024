@@ -56,7 +56,7 @@ export default function PickList() {
                         endgame_epa: 0,
                     }
                     team_data.forEach((i: any) => {
-                        auto_points.push(Number(i.speaker_notes_auton) * 5 + Number(i.amp_notes_auton) * 2)
+                        auto_points.push(Number(i.speaker_notes_auton) * 5 + Number(i.amp_notes_auton) * 2 + (Number(i.speaker_notes_auton) + Number(i.amp_notes_auton) > 1 ? 2 : 0))
                         teleop_points.push(Number(i.speaker_notes_teleop) * 2 + Number(i.amp_notes_teleop) * 1)
                         let endgame_pts = 0
                         if (i.trap === "Yes") endgame_pts += 5;
@@ -107,7 +107,7 @@ export default function PickList() {
     , [teams])
 
     return (
-        <main className="flex min-h-screen flex-col items-center justify-center px-4 md:px-8 xl:px-10 py-14">
+        <main className="flex min-h-screen w-screen flex-col items-center justify-center px-4 md:px-8 xl:px-10 py-14">
 
             <div>
                 <h1 className="text-4xl font-bold text-white mb-12">226 Scouting Ranking</h1>
