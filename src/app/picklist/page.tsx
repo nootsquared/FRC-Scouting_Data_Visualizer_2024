@@ -56,6 +56,8 @@ export default function PickList() {
                         endgame_epa: 0,
                     }
                     team_data.forEach((i: any) => {
+
+                        // Auto Line Cross Assumption: If a robot scores 2+ notes anywhere on the field in auto, they're assumed to have crossed the line.
                         auto_points.push(Number(i.speaker_notes_auton) * 5 + Number(i.amp_notes_auton) * 2 + (Number(i.speaker_notes_auton) + Number(i.amp_notes_auton) > 1 ? 2 : 0))
                         teleop_points.push(Number(i.speaker_notes_teleop) * 2 + Number(i.amp_notes_teleop) * 1)
                         let endgame_pts = 0
