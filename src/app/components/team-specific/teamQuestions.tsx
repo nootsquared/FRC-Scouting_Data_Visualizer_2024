@@ -181,7 +181,7 @@ export default function TeamQuestions({teamNumber}: {teamNumber: number}) {
  * @param grace_num - The number of lowest values to exclude from the calculation.
  * @returns The average of the array, excluding the lowest grace_num numbers. */
 function graceAvg(arr: number[], grace_num: number) {
-    if (arr.length <= grace_num + 1) return _.mean(arr);
+    if (arr.length <= grace_num + 2) return _.mean(arr);
     return _.mean(_.orderBy(arr, [], ['desc']).slice(0, arr.length - grace_num));
 }
 

@@ -44,7 +44,7 @@ const teamAuton = ({ teamNumber }) => {
                 <Legend />
                 <Tooltip content={<CustomTooltip />}/>
                 <Line name="Speaker Notes" type="monotone" dataKey="speaker_notes_auton" stroke="#3b82f6" />
-                <Line name="Amp Notes" type="monotone" dataKey="amp_notes_auton" stroke="#8b5cf6" />
+                <Line name="Amp Notes" type="monotone" dataKey="amp_notes_auton" stroke="#eb2323" />
             </LineChart>
         </ResponsiveContainer>
     );
@@ -59,7 +59,7 @@ const CustomTooltip = ({ active, payload, label }) => {
                     Speaker Notes:
                     <span className="ml-2">{payload[0].value}</span>
                 </p>
-                <p className="text-sm text-indigo-400">
+                <p className="text-sm text-red-600">
                     Amp Notes:
                     <span className="ml-2">{payload[1].value}</span>
                 </p>
