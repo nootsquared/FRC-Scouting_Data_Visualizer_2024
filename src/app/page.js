@@ -70,11 +70,11 @@ export default function Home() {
         <TeamQuestions teamNumber={teamNumber}/>
       </div>
       <div className="grid xl:grid-cols-2 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
-        <GridItem title="Auton">
+        <GridItem title="Autonomous">
           <TeamAutons teamNumber={teamNumber} />
         </GridItem>
 
-        <GridItem title="Teleop">
+        <GridItem title="Teleoperated">
           <TeamTeleops teamNumber={teamNumber} />
         </GridItem>
       </div>

@@ -43,8 +43,8 @@ const teamAuton = ({ teamNumber }) => {
                 <YAxis domain={[0, 'dataMax + 1']}/>
                 <Legend />
                 <Tooltip content={<CustomTooltip />}/>
-                <Line type="monotone" dataKey="speaker_notes_auton" stroke="#3b82f6" />
-                <Line type="monotone" dataKey="amp_notes_auton" stroke="#8b5cf6" />
+                <Line name="Speaker Notes" type="monotone" dataKey="speaker_notes_auton" stroke="#3b82f6" />
+                <Line name="Amp Notes" type="monotone" dataKey="amp_notes_auton" stroke="#8b5cf6" />
             </LineChart>
         </ResponsiveContainer>
     );
@@ -56,11 +56,11 @@ const CustomTooltip = ({ active, payload, label }) => {
             <div className="p-4 bg-slate-900 flex flex-col gap-4 rounded-md">
                 <p className="text-medium text-lg">{label}</p>
                 <p className="text-sm text-blue-400">
-                    Speaker Notes Auton:
+                    Speaker Notes:
                     <span className="ml-2">{payload[0].value}</span>
                 </p>
                 <p className="text-sm text-indigo-400">
-                    Amp Notes Auton:
+                    Amp Notes:
                     <span className="ml-2">{payload[1].value}</span>
                 </p>
             </div>
