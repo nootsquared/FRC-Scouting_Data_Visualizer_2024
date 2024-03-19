@@ -1,7 +1,9 @@
 'use client';
 
 import AutonConst from './components/all-teams/AutonConst';
-import TeleopConst from './components/all-teams/TeleopConst';
+import TeleopConst from './components/all-teams/TeleopConstSpeaker';
+import TeleopConstAmp from './components/all-teams/TeleopConstAmp';
+import EndgameConst from './components/all-teams/EndgameConst';
 import AllTeamsTotal from './components/all-teams/AllTeamsTotal';
 import TeamAutons from './components/team-specific/teamAutons';
 import TeamTeleops from './components/team-specific/teamTeleops';
@@ -9,9 +11,10 @@ import TeamAverages from './components/team-specific/teamAverages';
 import Graph from './components/team-specific/tableTeam';
 import { Grid, TextField } from '@material-ui/core';
 import React, { useState } from 'react';
+import TeamQuestions from './components/team-specific/teamQuestions';
 
 export default function Home() {
-  const [teamNumber, setTeamNumber] = useState(); // Replace 226 with your initial team number
+  const [teamNumber, setTeamNumber] = useState("226"); // Replace 226 with your initial team number
 
   const handleTeamNumberChange = (event) => {
     setTeamNumber(event.target.value);
@@ -20,7 +23,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-4 md:px-8 xl:px-10 py-14">
       <div>
-        <h1 className="text-4xl font-bold text-white mb-12">FRC Data Visualization by Pranav M</h1>
+        <h1 className="text-4xl font-bold text-white mb-12">226 Data Visualization by Pranav M</h1>
       </div>
 
       <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
@@ -34,8 +37,15 @@ export default function Home() {
           <AutonConst />
         </GridItem>
 
-        <GridItem title="Teleop">
+        <GridItem title="Teleop Speaker">
           <TeleopConst />
+        </GridItem>
+        
+        <GridItem title="Teleop Amp">
+          <TeleopConstAmp />
+        </GridItem>
+        <GridItem title="Endgame">
+          <EndgameConst />
         </GridItem>
       </div>
 
@@ -55,8 +65,9 @@ export default function Home() {
         />
       </div>
 
-      <div className="text-center">
-        <h1 className="text-4xl font-bold text-white mb-12">Team {teamNumber}</h1>
+      <div className="text-center w-full max-w-[1000px]">
+        <h1 className="text-4xl font-bold text-white mb-12 w-full">Team {teamNumber}</h1>
+        <TeamQuestions teamNumber={teamNumber}/>
       </div>
       <div className="grid xl:grid-cols-2 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
         <GridItem title="Auton">

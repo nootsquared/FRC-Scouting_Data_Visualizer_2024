@@ -26,6 +26,7 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
+    "@types/lodash": "^4.17.0",
     "@types/node": "20.11.24",
     "autoprefixer": "^10.0.1",
     "postcss": "^8",
