@@ -40,7 +40,7 @@ const teamTeleop = ({ teamNumber }) => {
         <ResponsiveContainer width="100%" height="100%">
             <LineChart data={filteredData} margin={{ top: 10, right: 30, left: 0, bottom: 0 }}>
                 <XAxis dataKey="match_number" />
-                <CartesianGrid strokeDasharray="5 5"/>
+                {/* <CartesianGrid strokeDasharray="5 5"/> */}
                 <YAxis domain={[0, 'dataMax + 1']}/>
                 <Legend />
                 <Tooltip content={<CustomTooltip />}/>

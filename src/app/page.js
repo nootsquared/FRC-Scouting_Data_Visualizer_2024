@@ -53,8 +53,8 @@ export default function Home() {
         <GridItem title="Teleop Amp">
           <TeleopConstAmp />
         </GridItem>
-        <GridItem title="Endgame">
-          {/* <EndgameConst /> */}
+        <GridItem title="Endgame Totals">
+          <EndgameConst />
         </GridItem>
       </div>
 
