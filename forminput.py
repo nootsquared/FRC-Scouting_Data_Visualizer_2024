@@ -19,7 +19,7 @@ def append_to_json(data, file_path='results.json'):
 def main():
 
     #UNTIL MATCH 7 TOTAL DATA IS WRONG
-    # VERY GOOD, 51 IS EVEN BETTER
+    # VERY GOOD, 51 IS EVEN BETTER no devesh
 
     while True:
         scouter_name = input("Enter scouter name: ")
