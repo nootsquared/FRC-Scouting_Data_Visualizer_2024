@@ -34,6 +34,12 @@ export default function Home() {
           <IconLink size={30} />
         </Link>
       </button>
+      <button className='bg-slate-900 w-72 h-20 mb-12 text-center flex flex-row items-center justify-center text-2xl font-extralight rounded-2xl'>
+        <Link className='flex flex-row justify-evenly gap-2' href={"/inputdata"}>
+          Input Data
+          <IconLink size={30} />
+        </Link>
+      </button>
 
       <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
         <GridItem title="All Teams">
