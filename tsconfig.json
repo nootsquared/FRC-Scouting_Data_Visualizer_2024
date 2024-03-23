@@ -27,7 +27,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-  ],
+, "src/app/api/saveData.ts"  ],
   "exclude": [
     "node_modules"
   ]
