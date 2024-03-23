@@ -171,7 +171,7 @@ const Page: React.FC = () => {
                         <p className="text-white text-lg mb-6 text-center">Other Notes</p>
                         <input type="text" className="form-input bg-gray-200 text-black mb-12" placeholder="Enter text here" style={{ width: '300px', padding: '10px', borderRadius: '5px' }} onChange={e => setOtherNotes(e.target.value)}/>
                     </div>
-                    <div className="flex justify-center">
+                    <div className="flex col-span-4 justify-center">
                         <button onClick={handleMatchClearClick} className="bg-red-500 text-white font-bold py-2 px-4 rounded-full mb-12">Clear</button>
                         <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-full mb-12 ml-4" type="submit">Submit</button>
                     </div>
@@ -231,7 +231,7 @@ const Page: React.FC = () => {
                         <p className="text-white text-lg mb-6 text-center">Other Notes</p>
                         <input type="text" className="form-input bg-gray-200 text-black mb-12" placeholder="Enter text here" style={{ width: '300px', padding: '10px', borderRadius: '5px' }} />
                     </div>
-                    <div className="flex justify-center">
+                    <div className="flex col-span-4 justify-center">
                         <button onClick={handlePitClearClick} className="bg-red-500 text-white font-bold py-2 px-4 rounded-full mb-12">Clear</button>
                         <button className="bg-blue-500 text-white font-bold py-2 px-4 rounded-full mb-12 ml-4" type="submit">Submit</button>
                     </div>
