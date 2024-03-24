@@ -1,5 +1,7 @@
 import json
 
+#Rudra, UD, Rushi
+
 def append_to_json(data, file_path='results.json'):
     with open(file_path, 'r') as f:
         try:
@@ -9,7 +11,6 @@ def append_to_json(data, file_path='results.json'):
 
     existing_data.append(data)
 
-    # Write everything back to the file
     with open(file_path, 'w') as f:
         f.write('[\n')
         for i, item in enumerate(existing_data):
@@ -17,9 +18,6 @@ def append_to_json(data, file_path='results.json'):
         f.write(']\n')
         
 def main():
-
-    #UNTIL MATCH 7 TOTAL DATA IS WRONG
-    # VERY GOOD, 51 IS EVEN BETTER no devesh
 
     while True:
         scouter_name = input("Enter scouter name: ")
@@ -73,9 +71,9 @@ def main():
             additional_notes_location = 'Both'
 
         if hang_or_park == '1':
-            hang_or_park = 'Hang'
-        elif hang_or_park == '2':
             hang_or_park = 'Park'
+        elif hang_or_park == '2':
+            hang_or_park = 'Hang'
         elif hang_or_park == '3':
             hang_or_park = 'None'
         

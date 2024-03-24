@@ -143,7 +143,7 @@ export default function TeamQuestions({teamNumber}: {teamNumber: number}) {
                 <div className='text-right flex flex-col font-extrabold text-md'>
                     <p
                         className={teamData.autonomous_epa ? (teamData.autonomous_epa + teamData.teleop_epa + teamData.endgame_epa > 15 ? 'text-white' : 'text-red-300') : 'text-red-300'}
-                    >{teamData.autonomous_epa ? _.round(teamData.autonomous_epa + teamData.teleop_epa + teamData.endgame_epa, PRECISION) : 0}</p>
+                    >{teamData.autonomous_epa + teamData.teleop_epa + teamData.endgame_epa ? _.round(teamData.autonomous_epa + teamData.teleop_epa + teamData.endgame_epa, PRECISION) : 0}</p>
                     <br />
                     <p className='text-purple-500'>{teamData.autonomous_epa}</p>
                     <p className='text-blue-500'>{teamData.teleop_epa}</p>
