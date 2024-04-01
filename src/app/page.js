@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-4 md:px-8 xl:px-10 py-14">
       <div>
-        <h1 className="text-4xl font-bold text-white mb-12">226 Data Visualization by Pranav M</h1>
+        <h1 className="text-4xl font-bold text-white mb-12">Paper-Scouting Data Visualization</h1>
       </div>
 
       <button className='bg-slate-900 w-72 h-20 mb-12 text-center flex flex-row items-center justify-center text-2xl font-extralight rounded-2xl'>
