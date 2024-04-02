@@ -1,10 +1,11 @@
 "use client"
-
 import { useEffect, useState } from "react";
 import raw_data from '../components/results.json';
 import _ from "lodash";
-
+import { IconLink } from '@tabler/icons-react';
+import { Link } from "react-router-dom";
 import { cn } from "../../lib/utils"
+
 
 
 // This represents the number of matches that are dropped from our EPA calculations. 
@@ -114,6 +115,12 @@ export default function PickList() {
             <div>
                 <h1 className="text-4xl font-bold text-white mb-12">226 Scouting Ranking</h1>
             </div>
+            
+            <div>
+                <a href="/ " className='bg-slate-900 w-72 h-20 text-center flex flex-row items-center justify-center text-2xl font-extralight rounded-2xl'>Back</a>
+                <div className="mt-4"></div>
+            </div>
+            
 
             <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-4">
                 <div className="flex flex-col items-center justify-start p-4 border border-slate-900 bg-slate-900/50 rounded-xl min-h-[400px] shadow-xl shadow-black">
