@@ -9,12 +9,23 @@ export async function GET() {
 }
 
 export async function POST(req: Request) {
-  const data = await req.json();
+  const { data, path: filePath } = await req.json();
   console.log("POST request received");
   console.log(data);
 
-  const filePath = './src/app/results/results.json';
-  fs.appendFileSync(filePath, JSON.stringify(data) + '\n');
+  let fileContent = fs.readFileSync(filePath, 'utf8');
 
-  Response.json({ received: true });
+  if (fileContent.length === 0 || fileContent[0] !== '[') {
+    fs.writeFileSync(filePath, '[\n]\n');
+    fileContent = '[\n]\n';
+  }
+
+  fileContent = fileContent.slice(0, -2);
+
+  if (fileContent.length > 3) {
+    fileContent = fileContent.slice(0, -1) + ',\n';
+  }
+  fs.writeFileSync(filePath, fileContent + JSON.stringify(data) + '\n');
+  fs.appendFileSync(filePath, ']\n');
+  return Response.json({ received: true });
 };

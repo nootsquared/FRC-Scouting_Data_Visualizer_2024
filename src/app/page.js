@@ -16,7 +16,7 @@ import { IconLink } from '@tabler/icons-react';
 import Link from 'next/link';
 
 export default function Home() {
-  const [teamNumber, setTeamNumber] = useState("226"); // Replace 226 with your initial team number
+  const [teamNumber, setTeamNumber] = useState("226");
 
   const handleTeamNumberChange = (event) => {
     setTeamNumber(event.target.value);
@@ -36,8 +36,14 @@ export default function Home() {
           </Link>
         </button>
         <button className='bg-slate-900 w-72 h-20 text-center flex flex-row items-center justify-center text-2xl font-extralight rounded-2xl'>
-          <Link className='flex flex-row justify-evenly gap-2' href={"/pages/qrreader"}>
-            Input Data
+          <Link className='flex flex-row justify-evenly gap-2' href={"/qrreader-match"}>
+            QR - Match
+            <IconLink size={30} />
+          </Link>
+        </button>
+        <button className='bg-slate-900 w-72 h-20 text-center flex flex-row items-center justify-center text-2xl font-extralight rounded-2xl'>
+          <Link className='flex flex-row justify-evenly gap-2' href={"/qrreader-pit"}>
+            QR - Pit
             <IconLink size={30} />
           </Link>
         </button>
