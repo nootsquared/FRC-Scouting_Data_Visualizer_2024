@@ -36,7 +36,7 @@ export default function Home() {
           </Link>
         </button>
         <button className='bg-slate-900 w-72 h-20 text-center flex flex-row items-center justify-center text-2xl font-extralight rounded-2xl'>
-          <Link className='flex flex-row justify-evenly gap-2' href={"/qrreader"}>
+          <Link className='flex flex-row justify-evenly gap-2' href={"/pages/qrreader"}>
             Input Data
             <IconLink size={30} />
           </Link>

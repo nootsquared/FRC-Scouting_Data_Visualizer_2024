@@ -1,6 +1,7 @@
 "use client"
 import { useEffect, useRef, useState } from 'react';
 import jsQR from "jsqr";
+import { NextResponse } from "next/server";
 
 export default function PickList() {
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -10,9 +11,13 @@ export default function PickList() {
     const [qrCodeData, setQrCodeData] = useState<string | null>(null);
 
     const postData = async () => {
-        const response = await fetch('/api/test')
-        const data = await response.json();
-        console.log(data);
+        await fetch('/pages/api', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ data: 'test string' }),
+        });
     }
 
     useEffect(() => {
@@ -20,12 +25,10 @@ export default function PickList() {
         const video = videoRef.current;
 
         if (cameraToggled) {
-            // Request access to the webcam
             navigator.mediaDevices.getUserMedia({ video: true })
                 .then((mediaStream) => {
                     streamRef.current = mediaStream;
                     if (video) {
-                        // Display the camera feed in the video element
                         video.srcObject = streamRef.current;
                     }
                 })
