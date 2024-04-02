@@ -14,6 +14,7 @@ import React, { useState } from 'react';
 import TeamQuestions from './components/team-specific/teamQuestions';
 import { IconLink } from '@tabler/icons-react';
 import Link from 'next/link';
+import PitGraph from './components/team-specific/tableTeamPit';
 
 export default function Home() {
   const [teamNumber, setTeamNumber] = useState("226");
@@ -31,7 +32,7 @@ export default function Home() {
       <div className="flex flex-row justify-center gap-10 mb-12">
         <button className='bg-slate-900 w-72 h-20 text-center flex flex-row items-center justify-center text-2xl font-extralight rounded-2xl'>
           <Link className='flex flex-row justify-evenly gap-2' href={"/picklist"}>
-            Scouting Ranking
+            EPA Ranking
             <IconLink size={30} />
           </Link>
         </button>
@@ -47,6 +48,7 @@ export default function Home() {
             <IconLink size={30} />
           </Link>
         </button>
+
       </div>
 
       <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1400px] mb-12">
@@ -109,6 +111,11 @@ export default function Home() {
       <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1500px] mb-12 px-50">
         <GridItem title="Data Per Match">
           <Graph teamNumber={teamNumber} />
+        </GridItem>
+      </div>
+      <div className="grid xl:grid-cols-1 lg:grid-cols-2 w-full gap-10 max-w-[1500px] mb-12 px-50">
+        <GridItem title="Pit Scouted Data">
+          <PitGraph teamNumber={teamNumber} />
         </GridItem>
       </div>
     </main>
