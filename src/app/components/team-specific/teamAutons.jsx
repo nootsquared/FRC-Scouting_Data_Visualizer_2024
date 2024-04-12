@@ -1,7 +1,7 @@
 import { 
     LineChart, Line, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Legend, Tooltip,
 } from 'recharts';
-import data from  '../results.json';
+import data from  '../../results/resultsmatch.json';
 import React, { useState, useEffect } from 'react';
 
 const teamAuton = ({ teamNumber }) => {

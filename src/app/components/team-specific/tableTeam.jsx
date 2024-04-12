@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { TableContainer, Paper, Table, TableHead, TableRow, TableCell, TableBody, Divider, Typography, TableFooter, TablePagination, Container } from '@material-ui/core';
-import data from  '../results.json';
+import data from  '../../results/resultsmatch.json';
 import { ResponsiveContainer } from 'recharts';
 
 const MatchNumberTable = ({page, rowsPerPage, handleChangePage, handleChangeRowsPerPage, teamNumber }) => {

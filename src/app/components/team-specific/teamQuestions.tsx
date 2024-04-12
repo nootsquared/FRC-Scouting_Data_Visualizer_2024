@@ -1,4 +1,4 @@
-import raw_data from '../results.json';
+import raw_data from '../../results/resultsmatch.json';
 import _, { set } from 'lodash';
 import React, { useState, useEffect } from 'react';
 

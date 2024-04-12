@@ -1,6 +1,8 @@
 "use client"
 import { useEffect, useRef, useState } from 'react';
 import jsQR from "jsqr";
+import { saveAs } from 'file-saver';
+import JSZip from 'jszip';
 
 export default function PickList() {
     const videoRef = useRef<HTMLVideoElement>(null);
@@ -10,6 +12,15 @@ export default function PickList() {
     const [qrCodeData, setQrCodeData] = useState<string | null>(null);
     const [isScanning, setIsScanning] = useState(true);
     const [submitStatus, setSubmitStatus] = useState('');
+
+    const downloadFile = async () => {
+        const zip = new JSZip();
+        const response = await fetch('../results/resultsmatch.json');
+        const data = await response.blob();
+        zip.file('resultsmatch.json', data);
+        const content = await zip.generateAsync({ type: 'blob' });
+        saveAs(content, 'results.zip');
+    };
 
     const clearData = () => {
         setQrCodeData(null);
@@ -97,6 +108,9 @@ export default function PickList() {
                 <button className="bg-green-100 text-green-800 px-4 py-2 rounded-2xl mr-2 w-40 h-20" onClick={postData}>Submit</button>
                 <button className="bg-red-100 text-red-800 px-4 py-2 rounded-2xl mr-2 w-40 h-20" onClick={clearData}>Clear</button>
             </div>
+
+            <button className="bg-gray-300 text-gray-800 px-4 py-2 rounded-2xl mt-2 w-40 h-20" onClick={downloadFile}>Download Data</button>
+
         </main>
     );
 }

@@ -3,7 +3,7 @@
 import { 
     BarChart, Bar, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Legend, Tooltip,
 } from 'recharts';
-import raw_data from  '../results.json';
+import raw_data from  '../../results/resultsmatch.json';
 import { useEffect, useState } from 'react';
 
 const AllTeamsEndgame = () => {
