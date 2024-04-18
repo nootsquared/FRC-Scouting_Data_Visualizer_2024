@@ -1,0 +1,7 @@
+STEP 1: RUN "npm run build"
+STEP 2: RUN "npm start"
+STEP 3: Open up the local host link
+
+FOR DEV:
+Step 1: RUN "npm run dev"
+Step 2: open the local host link
