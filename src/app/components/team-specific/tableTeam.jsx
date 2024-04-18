@@ -41,6 +41,7 @@ const MatchNumberTable = ({page, rowsPerPage, handleChangePage, handleChangeRows
                   <TableCell align="right">Additional Notes Location</TableCell>
                   <TableCell align="right">AMP Notes Teleop</TableCell>
                   <TableCell align="right">Speaker Notes Teleop</TableCell>
+                  <TableCell align="right">Notes Fed</TableCell>
                   <TableCell align="right">Trap</TableCell>
                   <TableCell align="right">Hang or Park</TableCell>
                   <TableCell align="right">Harmonize</TableCell>
@@ -48,8 +49,6 @@ const MatchNumberTable = ({page, rowsPerPage, handleChangePage, handleChangeRows
                   <TableCell align="right">Robot Driving</TableCell>
                   <TableCell align="right">Defense Capability</TableCell>
                   <TableCell align="right">Notes</TableCell>
-                  <TableCell align="right">Total Auton Points</TableCell>
-                  <TableCell align="right">Total Teleop Points</TableCell>
                 </TableRow>
               </TableHead>
               <TableBody>
@@ -64,6 +63,7 @@ const MatchNumberTable = ({page, rowsPerPage, handleChangePage, handleChangeRows
                     <TableCell align="right">{item.additional_notes_location}</TableCell>
                     <TableCell align="right">{item.amp_notes_teleop}</TableCell>
                     <TableCell align="right">{item.speaker_notes_teleop}</TableCell>
+                    <TableCell align="right">{item.notes_fed}</TableCell>
                     <TableCell align="right">{item.trap}</TableCell>
                     <TableCell align="right">{item.hang_or_park}</TableCell>
                     <TableCell align="right">{item.harmonize}</TableCell>
@@ -71,8 +71,8 @@ const MatchNumberTable = ({page, rowsPerPage, handleChangePage, handleChangeRows
                     <TableCell align="right">{item.robot_driving}</TableCell>
                     <TableCell align="right">{item.defense_capability}</TableCell>
                     <TableCell align="right">{item.notes}</TableCell>
-                    <TableCell align="right">{item.totalAutonPoints}</TableCell>
-                    <TableCell align="right">{item.totalTeleopPoints}</TableCell>
+                    {/* <TableCell align="right">{item.totalAutonPoints}</TableCell>
+                    <TableCell align="right">{item.totalTeleopPoints}</TableCell> */}
                   </TableRow>
                 ))}
               </TableBody>
