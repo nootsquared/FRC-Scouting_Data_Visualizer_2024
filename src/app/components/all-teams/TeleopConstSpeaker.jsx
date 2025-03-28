@@ -3,7 +3,7 @@
 import { 
     BarChart, Bar, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Legend, Tooltip,
 } from 'recharts';
-import data from  '../results.json';
+import data from  '../../results/resultsmatch.json';
 
 const AllTeamsTeleop = () => {
 

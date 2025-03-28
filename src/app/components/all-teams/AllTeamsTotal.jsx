@@ -4,7 +4,7 @@ import {
     BarChart, Bar, ResponsiveContainer, XAxis, YAxis, CartesianGrid, Legend, Tooltip,
 } from 'recharts';
 import _ from 'lodash';
-import data from  '../results.json';
+import data from  '../../results/resultsmatch.json';
 
 const AllTeamsGraph = () => {
 
