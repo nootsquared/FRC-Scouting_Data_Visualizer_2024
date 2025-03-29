@@ -1,8 +1,5 @@
 import fs from 'fs';
-
-// export const GET = async () => {
-//   res.status(200).json({ name: 'John Doe' });
-// };
+import csv from 'csvtojson';
 
 export async function GET() {
   return Response.json({"Hello": "World"})
@@ -28,4 +25,21 @@ export async function POST(req: Request) {
   fs.writeFileSync(filePath, fileContent + JSON.stringify(data) + '\n');
   fs.appendFileSync(filePath, ']\n');
   return Response.json({ received: true });
-};
+}
+
+export async function POST_UPLOAD_CSV(req: Request) {
+  const formData = await req.formData();
+  const file = formData.get('file') as File;
+
+  if (!file) {
+    return Response.json({ error: 'No file uploaded' }, { status: 400 });
+  }
+
+  const csvData = await file.text();
+  const jsonData = await csv().fromString(csvData);
+
+  const resultsFilePath = 'results.json';
+  fs.writeFileSync(resultsFilePath, JSON.stringify(jsonData, null, 2));
+
+  return Response.json({ success: true, message: 'CSV converted to JSON and saved to results.json' });
+}

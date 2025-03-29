@@ -1,38 +1,33 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import data from  '../../results/resultspit.json';
+import pitData from '../../../../2025-NEW-RESULTS/resultspit.json';
 
-const TableTeamPit = ({teamNumber}) => {
-    const [teamData, setTeamData] = useState(null);
+const TableTeamPit = ({ teamNumber }) => {
+  const [teamData, setTeamData] = useState(null);
 
-    useEffect(() => {
-        console.log('teamNumber:', teamNumber); // Check the teamNumber prop
-        console.log('data:', data); // Check the data
+  useEffect(() => {
+    const filteredData = pitData.find(item => String(item["Team-Number"]) === String(teamNumber));
+    setTeamData(filteredData);
+  }, [teamNumber]);
 
-        let filteredData = data.find(item => String(item.team_number) === teamNumber);
+  if (!teamData) {
+    return <div>No data found for team {teamNumber}</div>;
+  }
 
-        console.log('filteredData:', filteredData); // Check the filtered data
-
-        setTeamData(filteredData);
-    }, [teamNumber]);
-
-    return (
-        <div className="bg-gray-200 p-4 rounded-lg">
-            {teamData ? (
-                <div className="grid grid-cols-3 gap-4">
-                    {Object.entries(teamData).map(([key, value], index) => (
-                        <div key={index}>
-                            <h2 className="font-bold text-black">{key}</h2>
-                            <p className="text-black">{value || 'null'}</p>
-                        </div>
-                    ))}
-                </div>
-            ) : (
-                <p>No data found for team {teamNumber}</p>
-            )}
-        </div>
-    );
+  return (
+    <div className="bg-gray-200 p-4 rounded-lg">
+      <h2 className="text-xl font-bold mb-4">Pit Scouting Data for Team {teamNumber}</h2>
+      <div className="grid grid-cols-2 gap-4">
+        {Object.entries(teamData).map(([key, value], index) => (
+          <div key={index} className="bg-white p-2 rounded shadow">
+            <h3 className="font-bold text-gray-700">{key}</h3>
+            <p className="text-gray-900">{value || 'N/A'}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
 };
 
 export default TableTeamPit;

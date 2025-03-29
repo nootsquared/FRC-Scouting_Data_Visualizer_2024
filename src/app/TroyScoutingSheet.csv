@@ -1,0 +1,321 @@
+Scouter,Event,Match-Level,Match-Number,Robot,Team-Number,Auton-Position,Auton-Leave-Start,Auton-Coral-L4,Auton-Coral-L3,Auton-Coral-L2,Auton-Coral-L1,Algae-Removed- from-Reef,Auton-Algae-Processor,Auton-Algae-Net,Teleop-Coral-L4,Teleop-Coral-L3,Teleop-Coral-L2,Teleop-Coral-L1,TeleOp-Removed- from-Reef,Teleop-Algae-Processor,Teleop-Algae-Net,Defense-Played-on-Robot,Ground-Pick-Up,Climb-Status,No-Climb-Reason,Driver-Skill,Defense-Rating,Died-YN,Tipped-YN,Comments
+DY,2025mitry,qm,13,b3,33,p,1,2,0,0,0,0,0,0,3,4,6,1,2,2,0,0,n,s,x,e,n,n,0,"Very good team, sometimes missed coral in ground"
+"Ag,Kk",2025mitry,qm,5,b3,33,p,1,2,0,0,0,0,0,0,4,3,5,1,3,3,0,0,n,p,b,e,n,n,0, 
+KP,2025mitry,qm,19,b2,33,p,1,2,0,0,0,0,0,0,2,5,3,0,3,0,1,1,n,d,x,e,n,p,0,Bravo
+Sp,2025mitry,qm,23,b1,33,p,1,3,0,0,0,0,0,0,6,6,5,0,3,0,2,0,n,d,x,e,n,n,0, 
+DSRD,2025mitry,qm,30,r3,33,p,1,1,0,0,0,0,0,0,5,4,4,0,0,0,3,0,n,d,x,e,e,n,0,The robot was excellent 
+KP,2025mitry,qm,38,r2,33,p,1,1,0,0,0,0,0,0,7,0,0,1,4,0,4,1,n,d,x,e,i,n,0, 
+KB,2025mitry,qm,44,r1,33,p,1,2,0,0,0,0,0,0,5,4,5,0,3,0,3,0,n,s,x,e,n,n,0,It did great.
+Vh,2025mitry,qm,55,r2,33,p,1,2,0,0,0,0,0,0,2,0,5,0,0,0,7,0,n,d,x,e,n,n,0,Scored all algae
+Hc,2025mitry,qm,60,b1,33,p,1,3,0,0,0,0,0,0,2,4,3,1,3,0,3,0,n,d,x,e,n,n,0, 
+SM,2025mitry,qm,1,b2,201,o,1,1,0,0,0,0,0,0,0,0,0,0,0,2,0,f,d,x,e,n,n,n,,The robot had parts where it didn't have any scoring.
+SM DH,2025mitry,qm,8,b2,201,o,1,1,0,0,0,0,0,0,0,0,0,3,0,2,0,n,n,b,a,n,stu,,,
+DY,2025mitry,qm,15,b3,201,o,1,1,0,0,0,0,0,0,3,0,0,0,0,0,0,0,n,s,x,x,n,n,0,It broke in auton but still did good
+AM,2025mitry,qm,21,b2,201,p,1,0,0,0,0,0,0,0,3,1,0,0,2,0,0,0,s,p,t,a,n,n,0,I couldn't see their starting position cause app issues
+VR,2025mitry,qm,30,b2,201,o,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0,1,n,n,b,a,n,p,0,Was pinned most of the game by 4362
+TV,2025mitry,qm,36,b1,201,o,1,2,0,0,0,0,0,0,3,3,0,0,2,0,1,0,n,p,b,a,n,n,1, 
+KB,2025mitry,qm,47,r1,201,o,0,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,n,n,t,a,n,n,0,Mainly aimed for L4.
+DSRD,2025mitry,qm,53,r3,201,o,1,2,0,0,0,0,0,0,8,0,0,0,0,0,0,0,n,p,t,e,n,n,0, 
+"AG,Kk",2025mitry,qm,14,r2,226,p,1,0,0,0,0,0,0,0,9,1,0,0,1,0,0,1,n,p,t,e,n,n,0,Defense played on us was really good
+"Ag,Kk",2025mitry,qm,4,b3,226,o,1,1,0,0,0,0,0,0,9,0,0,1,0,0,0,0,n,d,x,e,n,n,0,Auton missed a couple
+"AG,Kk",2025mitry,qm,18,r2,226,p,1,1,0,0,0,0,0,0,7,0,0,0,1,0,0,0,n,d,x,e,n,n,0, 
+DR,2025mitry,qm,27,b3,226,p,1,3,0,0,0,0,0,0,7,0,0,0,0,0,0,0,f,d,x,e,n,n,0, 
+AK,2025mitry,qm,31,r2,226,p,1,1,0,0,0,0,0,0,2,4,2,0,2,0,0,0,n,d,x,a,n,n,0, 
+Ag,2025mitry,qm,38,b3,226,p,1,3,0,0,0,0,0,0,4,2,0,0,1,0,0,1,n,d,x,e,n,n,0, 
+SP,2025mitry,qm,42,b2,226,p,1,2,0,0,0,1,0,0,4,3,1,0,0,0,0,1,n,d,x,e,n,n,0, 
+SA,2025mitry,qm,53,b3,226,o,1,2,0,0,0,0,0,0,9,0,0,0,0,0,0,0,n,d,x,e,n,n,0, 
+RJ TV,2025mitry,qm,8,r1,469,o,1,2,0,0,0,0,0,0,3,0,0,2,0,0,0,n,p,s,a,n,n,n,, 
+KB,2025mitry,qm,17,b1,469,o,1,1,0,0,1,0,0,0,4,3,0,1,1,1,0,0,n,p,t,e,n,n,0,They had some issues later on but werent bad.
+AA,2025mitry,qm,25,r2,469,p,1,1,0,0,0,0,0,0,4,2,2,0,4,2,0,0,n,p,t,a,n,n,0, 
+TV,2025mitry,qm,32,b1,469,p,1,1,0,0,0,0,0,0,4,2,3,0,4,2,0,0,f,n,s,a,n,n,0, 
+SM,2025mitry,qm,38,b2,469,o,1,2,0,0,0,0,0,0,4,1,1,0,0,0,0,0,n,p,s,x,n,n,0,Good auton and average teleop 
+KB,2025mitry,qm,46,r1,469,o,1,2,0,0,0,0,0,0,6,6,0,0,2,0,1,0,n,n,s,e,n,n,0,It was a good team.
+DSRD,2025mitry,qm,57,r3,469,p,1,2,0,0,0,0,0,0,2,4,0,0,2,0,5,1,f,p,t,e,e,n,0, 
+SS AT,2025mitry,qm,6,b1,573,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,d,x,a,n,n,n,,Consistent L4
+KB,2025mitry,qm,12,b1,573,o,1,0,0,0,0,0,0,0,8,1,0,1,0,0,0,0,n,d,x,a,n,n,,They went only for L4. A little unstable.
+Sp,2025mitry,qm,21,b1,573,p,1,0,0,0,0,0,0,0,6,1,0,0,1,0,0,0,n,p,b,a,n,n,0,Really good but failed their deep climb
+DSRD,2025mitry,qm,27,r3,573,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,i,n,e,0,Robot didn't move in the entire match except crashing.
+CG,2025mitry,qm,32,r3,573,c,1,1,0,0,0,0,0,0,4,0,0,0,0,0,0,0,n,p,b,a,n,n,0,Their scoring mechanisms had problems in the later half
+SM,2025mitry,qm,37,b2,573,c,0,1,0,0,0,0,0,0,0,1,1,1,1,0,0,0,s,n,b,x,n,n,1,The robot only scored on L 2 and trough
+MK,2025mitry,qm,43,r2,573,p,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,n,p,t,e,n,n,0,Very good with coral
+SP,2025mitry,qm,49,b2,573,o,1,1,0,0,0,0,0,0,9,0,0,0,0,0,0,0,n,d,x,a,n,n,0,Mostly L4 bot
+Hc,2025mitry,qm,60,b2,573,o,1,0,0,0,0,0,0,0,3,2,1,1,0,0,0,0,n,s,x,a,n,n,0,They are good
+SM DH,2025mitry,qm,5,b2,818,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,s,n,s,i,n,,,,"Moved around aimlessly for long time, park 1 min remain"
+Zi,2025mitry,qm,12,r3,818,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,i,i,e,,They moved right at the begenjng and didn't move after
+KB,2025mitry,qm,16,b1,818,c,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,f,p,b,x,n,p,0,Parts broke off robot. Didn't move much.
+MK,2025mitry,qm,25,r3,818,o,1,0,0,0,0,0,0,0,1,2,1,1,0,0,0,0,n,n,x,a,n,n,0, 
+VR,2025mitry,qm,29,b2,818,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,f,p,b,i,n,p,0,They weren't moving for a good portion of the match
+SM,2025mitry,qm,36,b2,818,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,x,n,n,0,The robots intake was broken 
+SS,2025mitry,qm,48,r3,818,p,1,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,f,n,s,a,n,n,0,Smooth driving and scoring
+SD,2025mitry,qm,54,r1,818,p,1,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,f,n,t,a,n,n,0,"After teleop started, ground intake was very wobbly"
+SM DH,2025mitry,qm,10,b2,1498,o,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,f,d,x,a,n,n,n,,Column 31
+SS at,2025mitry,qm,2,b1,1498,o,1,1,0,0,0,0,0,0,7,0,0,1,0,0,0,0,f,d,x,a,n,n,0,Only missed one
+SS at,2025mitry,qm,2,b1,1498,o,1,1,0,0,0,0,0,0,7,0,0,1,0,0,0,0,f,d,x,a,n,n,0,Only missed one
+DY,2025mitry,qm,16,b3,1498,p,1,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,n,s,x,x,n,n,0,Mid
+AT,2025mitry,qm,22,r1,1498,o,0,1,0,0,0,0,0,0,4,2,0,0,0,0,0,0,f,p,s,a,n,n,0, 
+AK,2025mitry,qm,29,r2,1498,o,1,0,0,0,0,0,0,0,3,1,0,1,1,0,0,0,n,d,x,a,n,n,1, 
+Ag,2025mitry,qm,37,b3,1498,p,1,1,0,0,0,0,0,0,2,2,1,1,3,0,0,0,f,d,x,e,n,p,0, 
+SS,2025mitry,qm,45,r3,1498,p,1,1,0,0,0,0,0,0,4,4,0,0,0,0,0,0,n,p,b,a,n,n,0,Minor accuracy issues 
+SD,2025mitry,qm,55,r1,1498,c,1,0,0,0,0,0,0,0,5,0,0,2,0,0,0,1,f,d,x,a,n,n,1,Robot was slightly tippy 
+DSRD,2025mitry,qm,60,r3,1498,o,1,1,0,0,0,0,0,0,7,0,0,0,0,0,0,0,f,p,b,e,n,n,0, 
+"HBC,V",2025mitry,qm,11,r2,1506,o,1,1,0,0,0,0,0,0,0,0,1,1,0,0,0,n,d,x,a,n,n,n,, 
+RJ TV,2025milac,qm,4,r1,1506,o,0,0,0,0,0,0,0,0,4,0,0,1,0,0,0,0,n,d,x,a,a,n,0, 
+KB,2025mitry,qm,19,b1,1506,o,1,0,0,0,1,0,0,0,3,0,0,0,0,0,0,1,s,n,s,i,n,n,0, 
+SM,2025mitry,qm,32,b2,1506,o,1,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,n,d,x,a,n,n,0, 
+RA,2025mitry,qm,48,b1,1506,o,1,0,0,0,2,0,0,0,2,2,1,0,1,0,0,0,n,d,x,a,n,n,0,"Might have scored another L4, not sure sorry"
+DSRD,2025mitry,qm,52,r3,1506,o,1,2,0,0,1,0,0,0,6,2,0,0,0,0,0,0,n,d,x,e,n,n,0, 
+SA,2025mitry,qm,57,b3,1506,o,0,1,0,0,0,0,0,0,10,0,0,0,0,0,0,0,n,d,x,e,n,n,0, 
+"CN,RA",2025mitry,qm,7,r3,2145,o,1,3,0,0,0,0,0,0,0,0,1,0,0,0,0,n,d,x,a,n,,,,Missed some L4s
+KP,2025mitry,qm,13,b2,2145,c,1,1,0,0,0,0,0,0,7,1,1,0,0,0,0,0,n,d,x,e,n,n,0,It was pretty good but only played like a solo player
+MK,2025mitry,qm,20,r1,2145,o,1,3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,n,p,b,e,n,p,0,Good but need to fix robot
+CG,2025mitry,qm,31,r3,2145,c,1,2,0,0,0,1,0,0,0,1,0,1,0,0,0,1,n,p,t,a,n,n,0,Helped our team when the robot got stuck on the algae 
+TV,2025mitry,qm,37,b1,2145,o,1,3,0,0,0,0,0,0,4,0,0,0,1,0,0,0,n,d,x,a,n,n,0, 
+RA,2025mitry,qm,43,b1,2145,o,1,2,0,0,0,0,0,0,5,1,0,1,0,0,0,1,n,p,x,a,n,n,0, 
+SA,2025mitry,qm,50,b3,2145,o,1,2,0,0,0,0,0,0,3,2,1,0,0,0,0,0,n,p,b,a,n,p,0, 
+DSRD,2025mitry,qm,56,r3,2145,o,1,2,0,0,0,0,0,0,7,0,0,0,0,0,0,1,n,d,x,e,e,n,0, 
+MK,2025mitry,qm,14,r1,2604,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,i,i,p,1, 
+Ss,2025mitry,qm,41,r3,2604,o,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,n,p,s,a,a,n,0,Very long intake time
+SA,2025mitry,qm,54,b3,2604,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,n,p,s,i,a,n,0, 
+Vh,2025mitry,qm,60,r2,2604,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,s,a,a,n,0, 
+"HBC, V ",2025mitry,qm,2,r2,2664,o,,0,0,0,0,0,,0,0,0,0,0,0,0,0,,,,,,,,,"opposite processor, didn't move in auton, did nothing"
+"Ag,Kk",2025mitry,qm,6,b3,3302,c,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,n,p,b,i,n,p,p,,Hard time taking coral from human player
+KP,2025mitry,qm,14,b2,3302,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,n,p,b,a,n,p,0, 
+ZI,2025mitry,qm,19,r3,3302,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,b,a,a,n,0,Defended the whole game
+JSD,2025mitry,qm,23,b3,3302,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,a,a,n,0,Mechanism broke at the start of the match
+SM,2025mitry,qm,33,b2,3302,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,s,i,n,n,0,The robot literally only parked 
+RJ AT,2025mitry,qm,37,r3,3302,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,s,a,e,n,0,Defense bot
+KB,2025mitry,qm,42,r1,3302,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,a,a,p,0,It was playing defense but stopped moving midway
+Vh,2025mitry,qm,53,r2,3302,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,i,i,n,0,They just went to enemy source and stopped moving
+Vh,2025mitry,qm,58,r2,3302,o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,a,e,n,0,Stayed in blue source 
+Vh,2025mitry,qm,58,r2,3302,o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,a,e,n,0,Stayed in blue source 
+KK,2025mitry,qm,1,r1,3534,p,0,7,0,0,0,0,0,0,6,0,0,0,0,0,0,n,n,x,x,n,n,n,, 
+"AG,Kk",2025mitry,qm,13,r2,3534,p,1,0,0,0,0,0,0,0,3,3,3,0,1,0,0,0,n,p,b,a,n,n,0,Dropped a lot of coral from source
+KP,2025mitry,qm,20,b2,3534,o,1,2,0,0,0,0,0,0,5,2,1,0,1,0,0,1,n,d,x,e,a,n,0,"It's good, team player"
+DSRD,2025mitry,qm,29,r3,3534,p,1,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,n,p,t,e,e,n,0, 
+SP,2025mitry,qm,45,b2,3534,p,1,1,0,0,0,0,0,0,1,4,5,0,2,0,0,0,n,d,x,a,n,n,0,Can do L4 but didnt
+KB,2025mitry,qm,49,r1,3534,o,1,1,0,0,0,0,0,0,6,3,0,0,1,0,0,0,n,d,x,e,n,n,0, 
+"AG,Kk",2025mitry,qm,12,r2,4362,p,1,2,0,0,0,0,0,0,5,4,0,0,3,0,2,0,n,p,t,e,n,n,, 
+RJ TV,2025mitry,qm,3,r1,4362,p,1,2,0,0,0,0,0,0,5,2,0,3,1,0,2,0,n,d,x,a,a,n,0, 
+MK,2025mitry,qm,17,r1,4362,p,1,1,1,0,0,0,0,0,9,0,0,3,0,0,0,0,n,p,t,e,n,n,1,Good and efficient and quick
+AM,2025mitry,qm,22,b2,4362,p,1,2,0,0,0,0,0,0,2,0,0,0,1,2,0,0,f,d,x,a,n,n,0,Kept missing corals but was fast
+AK,2025mitry,qm,30,r2,4362,o,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,i,a,n,1,"Stuck on a ball, ton of penalties "
+TV,2025mitry,qm,35,b1,4362,p,1,2,0,0,0,0,0,0,5,4,0,1,2,2,0,0,n,p,b,a,a,n,0, 
+IC,2025mitry,qm,44,b3,4362,p,1,2,0,0,0,0,0,0,8,1,0,0,2,0,1,0,n,p,t,e,n,n,0, 
+IC,2025mitry,qm,48,b3,4362,p,1,2,0,0,0,0,0,0,2,3,1,0,3,0,2,1,n,d,x,a,n,n,0, 
+KB,2025mitry,qm,11,b1,4384, ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,x,n,n,n,,Team wasn't on the field.
+KP,2025mitry,qm,17,b2,4384,p,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,f,p,b,e,n,p,1,"Too shaky ,  like it was about to fall"
+AK,2025mitry,qm,27,r2,4384,p,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,n,n,s,i,i,n,0, 
+Kk,2025mitry,qm,31,r1,4384,o,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,n,n,b,i,a,n,0, 
+IC,2025mitry,qm,45,b3,4384,c,1,0,0,0,0,0,0,0,0,0,0,0,1,6,0,0,n,p,s,a,n,n,0, 
+DSRD,2025mitry,qm,50,r3,4384,c,1,0,0,0,0,0,0,0,0,0,1,0,0,4,0,0,n,n,s,a,n,n,0, 
+SD,2025mitry,qm,58,r1,4384,c,1,0,0,0,0,0,0,0,0,0,1,0,1,6,0,0,s,p,t,x,n,n,0, 
+"CN,RA",2025mitry,qm,6,r3,4961,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,e,n,n,n,,100% L4 coral accuracy
+"CN,RA",2025mitry,qm,10,r3,4961,o,1,1,0,0,0,0,0,0,0,0,2,0,0,0,0,n,n,s,a,n,e,e,,Fast- kept missing L4 sometimes
+KP,2025mitry,qm,16,b2,4961,o,1,0,0,0,0,0,0,0,5,4,0,1,1,0,0,0,n,n,s,e,n,n,0, 
+RJ AT,2025mitry,qm,35,r3,4961,o,1,0,0,0,0,0,0,0,8,0,0,1,0,0,0,0,n,n,t,a,n,n,0, 
+KP,2025mitry,qm,39,r2,4961,o,1,0,0,0,1,0,0,0,6,2,2,0,1,0,0,0,f,p,t,e,n,n,0, 
+SP,2025mitry,qm,48,b2,4961,c,1,0,0,0,0,0,0,0,1,1,2,3,2,0,0,0,n,p,s,a,n,n,1,3D printer ahh arm
+Hc,2025mitry,qm,52,b1,4961,o,1,0,0,0,1,0,0,0,5,0,0,0,1,0,0,0,n,p,s,a,n,n,0, 
+SD,2025mitry,qm,57,r1,4961,o,1,1,0,0,0,0,0,0,7,6,0,0,0,0,0,0,n,p,t,x,n,n,0, 
+"HBC,V",2025mitry,qm,10,r2,4998,c,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,n,p,t,i,a,n,n,,Just played defense
+"AG,Kk",2025mitry,qm,15,r2,4998,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,b,i,n,n,0,"Slow elevator, auton crossed line came back"
+SM,2025mitry,qm,2,b2,4998,c,1,1,0,0,0,0,0,0,0,0,0,0,5,0,0,0,f,n,t,e,n,n,0,The robot only took out algae and did not do an auton
+DH,2025mitry,qm,27,b1,4998,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,b,a,a,n,0,"Coral stuck? Nearly couldn't park at end, robot issue?"
+SM,2025mitry,qm,34,b2,4998,p,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,n,p,b,i,n,n,0,The robot barely did anything other than removing coral
+RJ AT,2025mitry,qm,38,r3,4998,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,b,a,i,n,0,Got penalties
+SS,2025mitry,qm,43,r3,4998,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,s,a,a,n,0,"Good blocks but penalty prone, 3 +"
+SD,2025mitry,qm,50,r1,4998,o,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,s,p,t,x,i,n,0,Tried defense but failed
+Hc,2025mitry,qm,56,b1,4998,p,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,n,d,x,a,a,n,0, 
+SM DH,2025mitry,qm,6,b2,5053,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,a,n,n,n,,"Elevator inconsistent, up and down a lot, coralgotunder"
+ZI,2025mitry,qm,13,r3,5053,o,1,0,0,0,0,0,0,0,0,0,1,0,0,2,2,0,s,p,b,x,n,n,0, 
+KB,2025mitry,qm,18,b1,5053,c,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,n,d,x,i,n,n,0, 
+BN,2025mitry,qm,32,b3,5053,c,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,s,d,x,i,i,p,1,Penalty twice by crossing the red line
+Kk,2025mitry,qm,40,r1,5053,o,1,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,n,p,b,i,n,n,0, 
+IC,2025mitry,qm,46,b3,5053,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,s,i,n,n,0,Did not score any points
+SD,2025mitry,qm,59,r1,5053,o,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,n,p,s,x,n,n,0,Algae was stuck in robot and it was stuck
+RJ TV,2025mitry,qm,6,r1,5065,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,x,n,e,e,, 
+"Ag,Kk",2025mitry,qm,10,b3,5065,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,x,n,n,n,,Did not attend the match
+DY,2025mitry,qm,11,b3,5065,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,x,n,n,n,,Did not attend the match
+MK,2025mitry,qm,15,r1,5065,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,i,i,e,1,Did nothing and we're lost and could not even intake
+JSD,2025mitry,qm,21,b3,5065,c,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,n,n,s,i,n,n,0,Driving was very wobbly
+SM,2025mitry,qm,35,b2,5065,c,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,n,n,b,x,n,n,0,The robot can only place on the bottom 
+SS,2025mitry,qm,42,r3,5065,o,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,n,p,s,i,n,n,0, 
+KM,2025mitry,qm,50,b2,5065,p,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,n,p,b,i,i,n,1, 
+Hc,2025mitry,qm,58,b1,5065,p,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,n,n,t,a,n,n,0,They were slow
+DY,2025mitry,qm,17,b3,5214,c,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,n,n,x,x,n,n,0,"They broke at the end, they are not that giod"
+AM,2025mitry,qm,25,b2,5214,c,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,s,p,s,a,n,n,0,Kept dropping L1 corals
+TV,2025mitry,qm,34,b1,5214,o,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,n,p,b,a,n,n,0, 
+SP,2025mitry,qm,43,b2,5214,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,x,n,n,0,Literally did nothing
+SD,2025mitry,qm,53,r1,5214,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,t,x,n,n,0,Mainly tried L1 for coral but they failed
+KP,2025mitry,qm,58,b2,5214,c,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,n,n,s,a,n,p,0, 
+SS AT,2025mitry,qm,7,b1,5235,o,1,0,0,0,0,0,0,0,0,0,0,0,2,0,0,n,p,t,i,n,,,,Issues with intake and scoring of algae
+MK,2025mitry,qm,12,r1,5235,o,1,0,0,0,0,0,0,0,0,0,0,0,0,3,3,0,s,d,x,a,,n,, 
+KP,2025mitry,qm,18,b2,5235,o,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,n,d,x,a,n,p,0, 
+AM,2025mitry,qm,23,b2,5235,o,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,s,d,x,a,n,n,0,Very slow and kinda glitchy
+SM,2025mitry,qm,31,b2,5235,p,1,0,0,0,0,0,0,0,0,0,0,1,0,2,0,0,n,p,t,a,a,n,0,The auton was mid 
+Kk,2025mitry,qm,35,r1,5235,p,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,n,n,b,i,n,n,1, 
+IC,2025mitry,qm,47,b3,5235,p,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,n,n,s,i,n,n,0, 
+KB,2025mitry,qm,14,b1,5282,p,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,n,d,x,i,n,n,0,They could only go for L1.
+RJ TV,2025mitry,qm,2,r1,5282,c,1,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,n,d,x,a,a,n,0, 
+"AG,Kk",2025mitry,qm,20,r2,5282,c,1,0,0,0,1,0,0,0,0,0,0,5,0,0,0,0,n,d,x,a,a,n,0,Played defense have the match
+CG,2025mitry,qm,33,r3,5282,c,1,0,0,0,1,0,0,0,0,0,0,8,0,0,0,0,n,p,b,a,n,n,0, 
+KB,2025mitry,qm,43,r1,5282,c,1,0,0,0,1,0,0,0,0,0,0,7,0,0,0,0,n,d,x,a,n,n,0,Only went for L1
+DSRD,2025mitry,qm,54,r3,5282,c,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,1,n,p,b,i,n,p,0, 
+SS AT,2025mitry,qm,8,b1,5436,p,1,0,0,0,0,0,0,0,0,0ery ,0,0ific intake,,,,,,,,,,,,
+MK,2025mitry,qm,18,r1,5436,o,1,0,0,0,0,0,0,0,3,0,1,1,0,0,0,0,n,d,x,a,n,n,1, 
+Kk,2025mitry,qm,32,r1,5436,o,1,0,0,0,1,0,0,0,6,0,0,2,0,0,0,0,n,d,x,e,n,n,0, 
+RJ AT,2025mitry,qm,36,r3,5436,c,1,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,n,d,x,a,n,n,0, 
+RA,2025mitry,qm,45,b1,5436,o,1,1,0,0,0,0,0,0,6,0,1,0,0,0,0,0,n,p,x,a,n,n,0,Slow elevator ascent time
+Vh,2025mitry,qm,54,r2,5436,o,1,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,n,d,x,a,n,n,0, 
+SA,2025mitry,qm,58,b3,5436,o,1,1,0,0,0,0,0,0,5,0,0,0,0,0,0,0,n,d,x,e,n,n,0, 
+"Ag,Kk",2025mitry,qm,2,b3,5478,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,b,i,i,n,0,Didn't score seemed like driving issues
+DY,2025mitry,qm,18,b3,5478,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,i,i,p,0, 
+DH,2025mitry,qm,29,b1,5478,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,x,i,p,0,Drove to opponent side and died
+KP,2025mitry,qm,36,r2,5478, ,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,n,p,b,a,n,p,0, 
+RA,2025mitry,qm,44,b1,5478,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,x,n,p,0,Nearly entire match it was immobile
+RA,2025mitry,qm,49,b1,5478,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,d,x,i,i,n,0,No penalties but defense did nothing 
+Vh,2025mitry,qm,56,r2,5478,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,b,a,i,n,0, 
+DY,2025mitry,qm,12,b3,5527,c,1,0,0,0,0,0,0,0,0,1,0,0,6,1,0,0,n,p,s,a,n,n,,"Elevator was verrrryy slow, "
+DY,2025mitry,qm,20,b3,5527,c,1,0,0,0,0,0,0,0,0,0,0,0,3,2,0,0,n,n,s,x,a,n,0,Slow algae
+MK,2025mitry,qm,41,r2,5527,c,1,0,0,0,0,0,0,0,0,0,1,0,5,4,4,0,n,n,x,a,n,n,1,Good only with alge
+MK,2025mitry,qm,45,r2,5527,o,1,0,0,0,0,0,0,0,0,0,0,0,5,5,5,1,n,p,s,e,i,n,0, 
+Hc,2025mitry,qm,53,b1,5527,c,1,0,0,0,0,0,0,0,0,0,0,0,0,4,3,0,n,p,s,e,n,n,0, 
+KP,2025mitry,qm,57,b2,5527,c,1,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,n,s,x,a,i,p,0, 
+"HBC, V",2025mitry,qm,1,r2,5555,p,,,0,0,0,0,,0,0,0,7,0,,0,0,,,p,,,,,,
+"Ag,Kk",2025mitry,qm,8,b3,5555,c,1,0,0,0,0,0,0,0,1,9,0,0,0,0,0,n,n,x,e,n,n,n,,Good for lower branches
+"Ag,Kk",2025mitry,qm,8,b3,5555,c,1,0,0,0,0,0,0,0,0,1,9,0,0,0,0,0,n,n,x,e,n,n,0,Good for lower branches
+MK,2025mitry,qm,16,r1,5555,p,1,1,0,0,0,0,0,0,0,2,4,0,0,0,0,0,s,n,x,i,n,n,0, 
+Ap,2025mitry,qm,21,r3,5555,p,1,0,0,0,1,0,0,0,0,3,5,0,0,0,0,0,n,n,s,a,n,n,0, 
+Kk,2025mitry,qm,33,r1,5555,p,1,0,0,0,0,0,0,0,0,0,3,0,1,0,0,0,n,p,b,a,n,p,0,Last minute and half of match arm broke.
+IC,2025mitry,qm,41,b3,5555,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,x,n,n,0,No show
+RA,2025mitry,qm,46,b1,5555,o,1,0,0,0,1,0,0,0,0,1,5,1,1,0,0,1,n,n,s,a,n,n,0,HP intake was poor
+KP,2025mitry,qm,56,b2,5555,o,1,0,0,0,0,0,0,0,0,2,6,1,2,0,0,0,n,n,s,a,n,p,0, 
+SS AT,2025mitry,qm,1,b1,5623,c,1,0,0,0,1,0,0,0,1,0,0,0,1,0,1,0,n,p,t,a,n,n,0,"Very specific intake, long time to line up shots"
+ZI,2025mitry,qm,16,r3,5623,c,0,0,0,0,0,0,0,0,2,0,0,0,2,2,0,0,n,s,x,a,n,n,0, 
+AA,2025mitry,qm,22,r2,5623,c,1,0,0,0,0,0,0,0,0,2,0,0,3,2,0,0,n,p,b,a,n,n,1,Slow mechanism
+Kk,2025mitry,qm,38,r1,5623,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,x,n,e,0, 
+SP,2025mitry,qm,47,b2,5623,c,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,n,p,b,i,n,n,1,"Scoral arm is very snappy, about fall over"
+SD,2025mitry,qm,52,r1,5623,p,1,0,0,0,0,0,0,0,0,0,0,0,4,2,0,0,n,d,x,a,n,n,0,Climb took some time because they were adjusting
+Vh,2025mitry,qm,57,r2,5623,c,1,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,n,p,b,i,n,n,0,Robot isn't good at coral. 
+KB,2025mitry,qm,13,b1,7716,o,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,n,n,x,i,n,n,0,Only have L4. Did not do great. 
+ZI,2025mitry,qm,17,r3,7716,c,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,n,p,b,i,n,n,0, 
+AK,2025mitry,qm,33,r2,7716,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,i,a,p,0,A lot of penelty.
+Kk,2025mitry,qm,37,r1,7716,p,1,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,n,n,s,a,n,n,0, 
+SS,2025mitry,qm,47,r3,7716,p,1,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,n,n,s,i,n,n,0,"RP penalty, low accurary"
+KM,2025mitry,qm,54,b2,7716,p,1,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,n,n,t,i,n,n,0, 
+"Ag,Kk",2025mitry,qm,1,b3,8115,p,1,0,0,0,0,0,0,0,1,0,2,0,0,0,0,n,p,b,i,n,,,,Missed lots of coral
+SS AT,2025mitry,qm,10,b1,8115,p,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,n,p,b,i,n,n,n,,All around bad
+"Ag,Kk",2025mitry,qm,1,b3,8115,p,1,0,0,0,0,0,0,0,0,1,0,2,0,0,0,0,n,p,b,i,n,n,1,Missed lots of coral
+DY,2025mitry,qm,19,b3,8115,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,i,a,n,0,"Not a good alliance, delicate"
+AK,2025mitry,qm,32,r2,8115,p,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,n,p,b,a,a,p,0, 
+SP,2025mitry,qm,44,b2,8115,c,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,n,n,s,i,n,n,0,It took them a while to get coral from the stations. 
+SS,2025mitry,qm,49,r3,8115,p,1,0,0,0,0,0,0,0,0,1,1,0,1,0,0,1,n,n,t,i,n,n,0,"Missed pieces, reckless driving"
+"Ag,Kk",2025mitry,qm,7,b3,8364,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,i,i,,,,Didnt die juset didn't do anything
+"Ag,Kk",2025mitry,qm,7,b3,8364,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,i,i,e,0,Didnt die juset didn't do anything
+SM,2025mitry,qm,3,b2,8364,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,x,a,a,n,0,The robot does not have any kind of way to score elemen
+"AG,Kk",2025mitry,qm,16,r2,8364,o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,i,i,n,0, 
+AK,2025mitry,qm,28,r1,8364,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,i,i,n,0,Penalty in the end
+CG,2025mitry,qm,34,r3,8364,o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,t,i,n,n,0,Didn't do anything despite being defense bot 
+Ag,2025mitry,qm,40,b3,8364,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,i,n,n,0, 
+MK,2025mitry,qm,47,r2,8364,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,n,n,b,i,i,p,0,Very bad over all 
+KM,2025mitry,qm,53,b2,8364,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,n,p,b,i,a,n,0, 
+SD,2025mitry,qm,60,r1,8364,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,s,x,n,n,0, 
+MK,2025mitry,qm,13,r1,8728,c,1,1,0,0,0,0,0,0,0,2,1,0,0,0,0,0,n,n,t,a,i,n,1,Was very slow at times
+SS at,2025mitry,qm,3,b1,8728,c,1,0,0,0,1,0,0,0,5,2,0,1,0,0,0,0,n,p,s,i,n,n,0,"Long time to score, appears something fell off/broke"
+AA,2025mitry,qm,21,r2,8728,c,1,1,0,0,0,0,0,0,5,0,0,1,0,0,0,0,n,p,t,a,n,n,1, 
+RJ AT,2025mitry,qm,39,r3,8728,c,1,1,0,0,0,0,0,0,5,0,1,0,0,0,0,0,n,p,t,a,n,n,0, 
+KB,2025mitry,qm,45,r1,8728,c,1,1,0,0,0,0,0,0,6,2,2,0,0,0,0,0,n,n,t,a,n,n,0,It was sort of slow in placing.
+Vh,2025mitry,qm,52,r2,8728,c,1,0,0,0,0,0,0,0,4,2,5,0,0,0,0,0,n,n,s,e,n,n,0,They had smooth driving but it was slow.
+"HBC, V",2025mitry,qm,8,r2,9237,p,,0,0,0,0,0,0,0,4,0,0,0,,0,0,,,,,,,,,"quick but misses, l4s"
+"Ag,Kk",2025mitry,qm,3,b3,9237,p,1,0,0,0,0,0,0,0,6,0,0,1,2,0,0,0,n,d,x,e,n,n,0, 
+MK,2025mitry,qm,19,r1,9237,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,i,n,n,1,Had trouble with intake
+VR,2025mitry,qm,27,b2,9237,c,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,n,d,x,a,n,n,0, 
+VR,2025mitry,qm,27,b2,9237,c,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,n,d,x,a,n,n,0, 
+TV,2025mitry,qm,31,b1,9237,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,b,a,a,n,0, 
+IC,2025mitry,qm,43,b3,9237,c,1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,n,d,x,a,n,n,0,"Their hold on coral was very loose, they dropped some w"
+DSRD,2025mitry,qm,59,r3,9237,c,1,0,0,0,1,0,0,0,5,0,0,2,0,0,0,0,n,s,x,e,n,n,0, 
+RJ TV,2025mitry,qm,10,r1,9245,p,1,0,1,0,0,0,0,0,5,4,2,3,0,0,0,n,d,x,a,n,n,n,, 
+SS AT,2025mitry,qm,4,b1,9245,p,1,0,1,1,0,0,0,0,0,5,4,5,2,0,0,0,n,d,x,a,n,n,0,Very fast
+JSD,2025mitry,qm,25,b3,9245,p,1,0,2,1,0,1,0,0,0,4,4,2,3,1,0,0,n,d,x,a,n,n,0, 
+BN,2025mitry,qm,30,b3,9245,p,1,0,2,1,0,1,0,0,0,3,7,0,2,0,0,1,n,p,s,e,n,n,0, 
+KP,2025mitry,qm,37,r2,9245,o,1,0,1,0,0,1,0,0,0,3,2,0,1,0,0,0,n,d,x,e,n,p,0, 
+SP,2025mitry,qm,46,b2,9245,p,1,2,0,0,0,0,0,0,0,8,6,1,4,0,0,0,n,p,t,e,n,n,0,"Extremely fast cycle time, counted around 7 seconds cyc"
+DSRD,2025mitry,qm,55,r3,9245,o,1,0,1,0,0,0,0,0,0,7,5,3,0,0,0,0,n,n,s,e,n,n,0, 
+SS AT,2025mitry,qm,5,b1,9252,c,1,0,0,0,1,0,0,0,0,0,6,0,0,0,0,n,n,t,i,n,,,,Crashed into robots and walls a lot
+SS AT,2025mitry,qm,5,b1,9252,c,1,0,0,0,1,0,0,0,0,0,0,6,0,0,0,0,n,n,t,i,n,n,0,Crashed into robots and walls a lot
+ZI,2025mitry,qm,20,r3,9252,p,1,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,n,n,t,i,i,n,0, 
+AK,2025mitry,qm,34,r2,9252,p,1,0,0,0,1,0,0,0,0,0,0,5,0,0,0,0,n,n,s,a,n,n,0, 
+TV,2025mitry,qm,38,b1,9252,c,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,n,p,b,a,a,n,0,Defended
+SA,2025mitry,qm,55,b3,9252,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,n,p,s,i,a,n,0, 
+"CN,RA",2025mitry,qm,5,r3,9558,c,1,0,0,0,0,0,0,0,0,0,3,0,2,0,0,s,n,s,a,n,,,,"No coral station intake, got stuck on algae ~10s"
+KP,2025mitry,qm,12,b2,9558,p,1,0,0,0,0,0,0,0,0,0,0,1,0,6,0,0,n,p,t,a,n,p,,Only took algaes
+"AG,Kk",2025mitry,qm,17,r2,9558,c,1,0,0,0,0,0,0,0,0,0,0,4,0,5,0,0,s,p,b,a,n,n,0,Ground intake is fast but only do L1
+DH,2025mitry,qm,30,b1,9558,c,1,0,0,0,1,1,0,0,0,0,0,0,0,3,0,1,n,p,t,x,n,n,0,Should be +1 algae but rules broke. Parts fell off
+RA,2025mitry,qm,41,b1,9558,o,1,0,0,0,1,0,0,0,0,0,0,2,0,8,0,0,s,n,s,a,n,n,0, 
+RA,2025mitry,qm,47,b1,9558,o,1,0,0,0,1,0,0,0,0,0,0,2,0,3,0,1,s,n,t,a,n,n,0, 
+SA,2025mitry,qm,52,b3,9558,c,1,0,0,0,0,1,0,0,0,0,0,0,0,4,0,0,n,n,t,i,n,n,1, 
+SD,2025mitry,qm,56,r1,9558,c,1,0,0,0,1,1,0,0,0,0,0,4,2,6,0,0,f,n,t,a,n,n,0,Takes an algae off while putting L1 coral
+RJ TV,2025mitry,qm,7,r1,9747,p,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,n,n,t,a,a,,,,Robot speed slow
+KP,2025mitry,qm,11,b2,9747,o,1,0,0,0,0,0,0,0,0,0,4,0,0,0,0,n,p,b,i,n,p,p,,It was a little tippy but not that much
+KP,2025mitry,qm,15,b2,9747,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,n,p,b,a,a,p,1, 
+JSD,2025mitry,qm,22,b3,9747,o,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,n,n,s,a,a,n,0, 
+Kk,2025mitry,qm,36,r1,9747,p,1,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,n,n,t,a,n,n,0,"Attempted to score L1 many times, missed"
+IC,2025mitry,qm,42,b3,9747,o,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,n,n,s,a,a,n,0, 
+MK,2025mitry,qm,49,r2,9747,c,1,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,n,p,s,a,n,p,0, 
+SA,2025mitry,qm,56,b3,9747,c,1,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,n,p,s,i,n,n,0, 
+SM DH,2025mitry,qm,7,b2,9751,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,a,a,,,,"Coral got stuck on chassis, forced to play defense"
+"AG,Kk",2025mitry,qm,19,r2,9751,p,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,n,p,b,i,n,n,0,"Claw is bad, taking from coral station is bad"
+Sp,2025mitry,qm,25,b1,9751,o,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,i,i,n,0,Started spinning randomly. 
+AK,2025mitry,qm,29,r1,9751,c,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,n,n,s,i,n,n,0,The arm collapsed last min
+KB,2025mitry,qm,41,r1,9751,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,s,i,n,n,0, 
+SS,2025mitry,qm,46,r3,9751,p,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,t,i,n,n,0,Missed all shots + jank movement 
+VH,2025mitry,qm,50,r2,9751,p,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,n,n,s,i,n,n,0,Both L1 were flukes. Shouldn't even have made it
+"HBC, V",2025mitry,qm,7,r2,9776,c,1,0,0,0,0,1,0,0,0,0,0,10,,0,0,,,,,,,,,"center start, only l1s, driver was pretty quick"
+Zi,2025mitry,qm,14,r3,9776,o,1,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,n,n,b,i,n,e,0, 
+AT,2025mitry,qm,21,r1,9776,o,1,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,n,p,s,a,n,n,0,Agile
+AT,2025mitry,qm,25,r1,9776,c,1,0,0,0,1,0,0,0,0,0,0,14,0,0,0,0,n,n,t,a,n,n,0, 
+TV,2025mitry,qm,33,b1,9776,o,1,0,0,0,1,0,0,0,0,0,0,9,0,0,0,1,n,p,s,a,n,p,0, 
+SS,2025mitry,qm,44,r3,9776,o,1,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,n,p,s,e,n,n,0,"very efficient, missed maybe 2-3 shots"
+IC,2025mitry,qm,49,b3,9776,c,1,0,0,0,1,0,0,0,0,0,0,10,0,0,0,0,n,n,s,a,n,n,0, 
+Hc,2025mitry,qm,57,b1,9776,o,1,0,0,0,1,0,0,0,0,0,0,8,0,0,0,0,n,n,t,a,n,n,0, 
+"CN,RA",2025mitry,qm,8,r3,10612,c,1,0,0,0,1,0,0,0,0,0,6,0,0,0,0,n,n,s,a,n,n,n,,Kitbot
+"HBC, V ",2025mitry,qm,3,r2,10612,c,,,0,0,0,0,0,0,0,0,0,6,0,0,0,,,,,,,,,
+KB,2025mitry,qm,15,b1,10612,c,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,n,n,x,a,n,n,0,They were VERY slow and got blocked.
+Ap ,2025mitry,qm,23,r3,10612,c,1,0,0,0,1,0,0,0,0,0,0,3,0,0,0,0,n,n,b,a,n,n,0, 
+DR,2025mitry,qm,29,b3,10612,c,1,0,0,0,1,0,0,0,0,0,0,10,0,0,0,0,s,p,t,i,n,n,0,No elevator.
+Kk,2025mitry,qm,39,r1,10612,p,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,n,p,b,i,n,n,0,Inconsistent on L1
+MK,2025mitry,qm,44,r2,10612,c,1,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,n,p,b,a,n,n,0,Only had tiny intake
+Hc,2025mitry,qm,55,b1,10612,o,1,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,n,p,s,a,n,n,0, 
+"HBC, V",2025mitry,qm,6,r2,10652,c,,0,0,0,0,0,0,0,0,0,0,9,0,0,0,,,x,,,,,,"center, moved but nothing in auton, trough farmer"
+Zi,2025mitry,qm,11,r3,10652, ,0,0,0,0,1,0,0,0,0,0,7,1,0,0,0,n,n,b,a,i,n,n,, 
+MK,2025mitry,qm,11,r1,10652,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,x,x,n,n,n,, 
+ZI,2025mitry,qm,18,r3,10652,c,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,n,n,b,x,n,p,0,They got stuck the majority of the match
+Sp,2025mitry,qm,22,b1,10652,c,1,0,0,0,1,0,0,0,0,0,0,5,1,0,0,0,n,n,s,a,n,n,0, 
+BN,2025mitry,qm,33,b3,10652,c,1,0,0,0,1,0,0,0,0,0,0,8,0,0,0,0,n,n,s,a,n,p,1,Got stuck on a coral for 5 seconds.
+SP,2025mitry,qm,41,b2,10652,c,1,0,0,0,1,0,0,0,0,0,0,7,3,0,0,0,n,n,s,a,n,n,0,Can only do L1
+KB,2025mitry,qm,48,r1,10652,c,1,0,0,0,0,0,0,0,0,0,0,3,3,0,0,0,n,n,t,i,n,n,0,Only got L1s. Removed a placed coral from the reef.
+KP,2025mitry,qm,55,b2,10652,p,1,0,0,0,1,0,0,0,0,0,0,4,0,0,0,0,n,p,t,a,n,p,0, 
+KP,2025mitry,qm,59,b2,10652,p,1,0,0,0,1,0,0,0,0,0,0,5,0,0,0,0,n,p,s,a,n,p,1,"Too tippy, but tippy in this case is advantageous "
+DY,2025mitry,qm,14,b3,10672,c,1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,n,n,s,i,n,n,0,They were not a strong team
+"Ag,Kk",2025mitry,qm,9,b3,10672,c,1,0,0,0,1,0,0,0,0,0,0,3,0,0,0,0,n,p,t,a,n,n,0, 
+RJ TV,2025milac,qm,5,r1,10672,p,1,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,n,p,b,a,n,n,0,Robot speed slow
+Ap,2025mitry,qm,22,r3,10672,p,1,0,0,0,1,0,0,0,0,0,0,3,0,0,0,0,n,n,x,a,n,n,0, 
+AK,2025mitry,qm,30,r1,10672,c,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,n,p,s,i,n,n,0,Only can score on  L1 
+AK,2025mitry,qm,35,r2,10672,c,1,0,0,0,1,0,0,0,0,0,0,5,0,0,0,0,n,n,s,a,n,n,1, 
+RA,2025mitry,qm,42,b1,10672,c,1,0,0,0,1,0,0,0,0,0,0,3,0,0,0,0,n,n,s,a,n,n,0, 
+HC,2025mitry,qm,50,b1,10672,c,1,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,n,n,t,a,n,n,0, 
+HC,2025mitry,qm,50,b1,10672,c,1,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,n,n,t,a,n,n,0, 
+Vh,2025mitry,qm,59,r2,10672,p,1,0,0,0,0,0,0,0,0,0,0,7,0,0,p,s,x,n,n,0, ,,,
+ZI,2025mitry,qm,15,r3,10690,o,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,n,n,s,a,e,n,0,It did defence the for majority of the match 
+SM DH,2025mitry,qm,4,b2,10690,c,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,n,b,x,a,n,0,Robot code and wiring had issues prior to match
+AA,2025mitry,qm,23,r2,10690,p,1,0,0,0,0,0,0,0,0,2,0,1,2,0,0,0,n,p,t,i,i,p,1,Crashed this is by memory
+Kk,2025mitry,qm,34,r1,10690,c,1,0,0,0,0,0,0,0,0,4,0,2,2,0,0,0,n,p,t,a,n,n,1, 
+RJ AT,2025mitry,qm,40,r3,10690,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,n,p,s,a,e,n,0,"Good defense bot, no penalties"
+MK,2025mitry,qm,46,r2,10690,c,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,n,p,b,i,i,n,1,Could not do anything properly
+Hc,2025mitry,qm,54,b1,10690,c,1,0,0,0,0,0,0,0,0,6,0,0,2,0,0,0,n,n,t,x,n,n,1, 
+SA,2025mitry,qm,59,b3,87281,c,0,1,0,0,0,0,0,0,7,0,0,0,0,0,0,0,n,n,t,i,n,n,0, 
+DH,2025mitry,qm,28,b1,5623,o,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,n,p,t,a,n,n,,1
+VR,2025mitry,qm,28,b2,7716,c,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,n,n,s,i,n,n,,"Stayed stationary for a while, general kitbox robot"
+DR,2025mitry,qm,28,b3,5527,p,1,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,s,p,t,i,n,n,,Slow elevator
+AK,2025mitry,qm,28,r2,5065,o,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,n,n,s,i,n,n,, 
+DSRD,2025mitry,qm,28,r3,9747,p,1,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,n,p,t,i,i,n,, 
